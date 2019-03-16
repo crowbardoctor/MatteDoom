@@ -1,0 +1,16 @@
+Patch File for DeHackEd v3.0
+# Created with WhackEd4 1.2.0 BETA
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 21
+Patch format = 6
+
+
+Ammo 0 (Bullets)
+Per ammo = 5
+
+Cheat 0
+Chainsaw = 
+
+Misc 0
+Initial Bullets = 40
