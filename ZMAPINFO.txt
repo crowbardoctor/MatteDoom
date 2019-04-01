@@ -1,0 +1,60 @@
+gameinfo {
+	AddEventHandlers = "DamNumEventHandler"
+}
+	
+	clearepisodes
+
+episode YOURMAP1
+{
+//episode MAP01
+name = "Grade 1"
+}
+
+episode MAP01
+{
+name = "Doom 2 : Hell On Earth"
+}
+
+episode G2MAP01
+{
+name = "Grade 2"
+}
+
+map YOURMAP1 "Mission : X"
+{
+//map MAP01 "Mission : X"
+next = YOURMAP2
+//next MAP01
+sky1 = MILKYWAY 0.02 // just an example :)
+//music xxxxxxxx
+}
+
+map MAP01 "Mission : 1"
+{
+RandomPlayerStarts
+next = MAP02
+}
+
+map MAP02 "Mission : 1"
+{
+RandomPlayerStarts
+next = MAP03
+}
+
+map MAP03 "Mission : 1"
+{
+RandomPlayerStarts
+next = MAP04
+}
+
+map MAP04 "Mission : 1"
+{
+RandomPlayerStarts
+next = MAP05
+}
+
+map MAP05 "Mission : 2"
+{
+RandomPlayerStarts
+next = MAP01
+}

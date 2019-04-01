@@ -1,0 +1,28 @@
+/*
+ * DamNums: by Xaser Acheron
+ * w/contributions by Major Cooke
+ *
+ * special thx to Marrub & Zombie for
+ * tech support & sanity maintenance
+ */
+
+version "2.4"
+
+#include "zscript/damnums/constants.txt"
+#include "zscript/damnums/damnum.txt"
+#include "zscript/damnums/events.txt"
+#include "zscript/damnums/fonts/base.txt"
+#include "zscript/damnums/fonts/doomclassic.txt"
+#include "zscript/damnums/fonts/doomsmall.txt"
+#include "zscript/damnums/fonts/doommodern.txt"
+#include "zscript/damnums/fonts/ravenbig.txt"
+#include "zscript/damnums/fonts/ravensmall.txt"
+#include "zscript/damnums/fonts/raventory.txt"
+#include "zscript/damnums/fonts/strife.txt"
+#include "zscript/damnums/fonts/chex.txt"
+#include "zscript/damnums/fonts/hacx.txt"
+#include "zscript/damnums/fonts/harmony.txt"
+#include "zscript/damnums/fonts/square.txt"
+#include "zscript/damnums/fonts/urbanbrawl.txt"
+#include "zscript/damnums/fonts/borderlands.txt"
+#include "zscript/damnums/fonts/gamedefaults.txt"
